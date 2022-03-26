@@ -1,0 +1,156 @@
+body {
+    background-color: #001219;
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.design {
+    width: 400px;
+    background-color: #2f3e46;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+    margin: 150px auto;
+    border-radius: 9px;
+    border: 1px solid #457b9d;
+    box-shadow: 0 0  1000px #408fa5; 
+    overflow: hidden;
+    
+    
+}
+.design:hover {
+    box-shadow: 0 0 15px #408fa5;
+    transition:all 0.4s;
+}
+
+.first-p {
+    margin-top: 3px;
+    width: 50px;
+    padding: 8px;
+    position: relative;
+    top: 0px;
+    color: #408fa5;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+/* Start Username */
+.in-user {
+    padding-left: 25px;
+    outline: none;
+    margin-bottom:-20px;
+    width: 259px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #408fa5;
+    direction: ltr;
+    position: relative;
+    bottom: 15px;
+    font-size: 14px;
+}
+.gg-user {
+    position: relative;
+    bottom: -10px;
+    left:65px;
+    z-index: 1;
+    color: #53B3CB;
+}
+.in-user:focus{
+    box-shadow: 0 0 4px #457b9d;
+}
+.in-user:hover {
+    border: 1px solid #457b9d;
+    box-shadow: 0 0 4px #457b9d;
+}
+.gg-user:hover {
+    color:#1d3557;
+}
+/* End Username */
+
+/* Start Email */
+.in-Email {
+    width: 250px;
+    height: 30px;
+    padding-left: 33px;
+    outline: none;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    direction: ltr;
+    border-radius: 4px;
+    position: relative;
+    font-size: 14px;
+    border: 1px solid #457b9d;
+}
+.in-Email:hover{
+    box-shadow: 0 0 4px #457b9d;
+}
+.in-Email:focus {
+    box-shadow: 0 0 4px #457b9d;
+}
+.gg-mail {
+    position: relative;
+    bottom: -19px;
+    left: 65px;
+    z-index: 1;
+    color: #53B3CB;
+}
+.gg-mail:hover{
+    color:#1d3557;
+}
+/* End Email */
+
+/* Start Password */
+.in-pass {
+    width: 250px;
+    height: 30px;
+    padding-left: 32px;
+    outline: none;
+    direction: ltr;
+    border-radius: 4px;
+    position: relative;
+    left: -9px;
+    border: 1px solid #457b9d;
+}
+.in-pass:hover {
+    box-shadow: 0 0 4px #457b9d;
+}
+.in-pass:focus {
+    box-shadow: 0 0 4px #457b9d;
+}
+i {
+    color: #53B3CB;
+    position: relative;
+    left: 19px;
+    bottom: -3px;
+    z-index: 1;
+}
+i:hover {
+    color:#1d3557;
+}
+
+/* End Password */
+/* Button */
+.btn {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    left: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+    border: 1px solid #1d3557;
+    background-color: #457b9d;
+}
+.i-login {
+    position: relative;
+    bottom: -28px;
+    left: -65px;
+}
+.btn:hover {
+    transition: all .3s;
+    background-color: #1d3557;
+}
